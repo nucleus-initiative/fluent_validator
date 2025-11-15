@@ -141,6 +141,8 @@ if !res.IsValid {
 - `func (*FluentValidator) And(v Validator) *FluentValidator`
 - `func (*FluentValidator) Or(v Validator) *FluentValidator`
 - `func (*FluentValidator) Validate() ValidationResult`
+- `func NewJSONError(errs []string) error`
+- `func NewErrorFromStrings(errs []string) error`
 
 Built-in rules:
 - String: `NonEmpty`, `MinLen`, `MaxLen`, `LenBetween`, `Matches`, `OneOf`
