@@ -69,14 +69,6 @@ func main() {
 }
 ```
 
-## Versioning
-
-This package follows Semantic Versioning (SemVer):
-
-- MAJOR (X.0.0): breaking API changes
-- MINOR (0.X.0): backward-compatible features and improvements
-- PATCH (0.0.X): backward-compatible bug fixes
-
 ## Upcoming
 
 1.x (minor, non-breaking): continue adding rules, helpers, and docs
